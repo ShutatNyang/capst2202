@@ -1,5 +1,6 @@
 var mysql = require('mysql');
-const db = mysql.createPool({
+
+const dbconn = mysql.createPool({
     host : 'localhost',
     user : 'root',
     password : 'rootroot',
@@ -7,4 +8,4 @@ const db = mysql.createPool({
     port : 3306
 });
 
-module.experts = db;
+module.exports = dbconn;
