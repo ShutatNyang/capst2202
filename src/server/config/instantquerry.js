@@ -15,7 +15,6 @@ const dbconn = mysql.createPool({
  const instantquery = async (stringsql,callback)=> dbconn.query(stringsql,async (err,data)=>{
     try{
     if(!err){
-        
             if(callback){
               await callback(data)
             }

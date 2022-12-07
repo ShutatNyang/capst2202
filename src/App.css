@@ -1,113 +1,174 @@
 .App {
+  width: 1920px;
+  height: 970px;
   text-align: left;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  font-size: 14px;
+.Nav{
+  position: relative;
+  float: left;
+  background-color: aquamarine;
+  width: 17.5%;
+  height: 970px;
+  background-image: url('./img/Nav.png');
 }
-.v20_161 {
+
+.NavLogo{
   width: 100%;
-  height: 968px;
+  height: 100px;
+  background-image: url('./img/NavLogo.png');
+}
+
+.NavMenu{
+  width: 100%;
+  height: 763px;
+  background-image: url('./img/NavMenu.png');
+  padding-top: 7px;
+}
+
+.Nav_Search{
+  width: 100%;
+  height: 40px;
+  background-image: url('./img/Nav_Search.png');
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  margin-bottom: 7px;
 }
-.v20_160 {
+
+.Nav_Looking{
   width: 100%;
-  height: 968px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 380px;
-  overflow: hidden;
+  height: 40px;
+  background-image: url('./img/Nav_Looking.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
 }
-.v18_146 {
+
+.Nav_Board{
   width: 100%;
-  height: 968px;
-  background: rgba(209,197,197,1);
-  opacity: 1;
+  height: 40px;
+  background-image: url('./img/Nav_Board.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.Nav_QnA{
+  width: 100%;
+  height: 40px;
+  background-image: url('./img/Nav_QnA.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.Nav_Contest{
+  width: 100%;
+  height: 40px;
+  background-image: url('./img/Nav_Contest.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.Nav_Employment{
+  width: 100%;
+  height: 40px;
+  background-image: url('./img/Nav_Emplyment.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.Nav_Portfolio{
+  width: 100%;
+  height: 40px;
+  background-image: url('./img/Nav_Portfolio.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.Nav_Notice{
+  width: 100%;
+  height: 40px;
+  background-image: url('./img/Nav_Notice.png');
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.Login_test{
+  width: 100%;
+  height: 40px;
+  background-color: deepskyblue;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  margin-top : 7px;
+}
+
+.NavBottom{
+  width: 100%;
+  height: 100px;
+  background-image: url('./img/NavBottom.png');
+}
+
+.Main{
   position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  float: right;
+  background-color: white;
+  width: 82.5%;
+  height: 100%;
 }
-.v18_152 {
-  width: 1285px;
-  height: 239px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 28px;
-  left: 119px;
+
+.MainDisp{
+  width: 70%;
+  height: 80%;
+  background-color: azure;
+  margin-left: 15%;
+  margin-top: 6.5%;
 }
-.v18_154 {
-  width: 1285px;
-  height: 239px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 674px;
-  left: 119px;
+
+.Login_testDisp{
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  margin-left: 15%;
+  margin-top: 6.5%;
 }
-.v18_153 {
-  width: 1285px;
-  height: 239px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 351px;
-  left: 119px;
+
+.Login_testDisp_Form{
+  margin: auto;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15%;
+  border: 1px solid;
 }
-.v18_158 {
-  width: 380px;
-  height: 968px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
 }
-.v18_145 {
-  width: 380px;
-  height: 968px;
-  background: rgba(217,217,217,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+
+#btn {
+  background-color: #1BBC9B;
+  margin-bottom: 30px;
+  color: white;
 }
-.v18_151 {
-  width: 347px;
-  height: 619px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 174px;
-  left: 17px;
+.in {
+  margin-bottom: 10px;
+  border: 1px solid;
 }
-.v18_150 {
-  width: 347px;
-  height: 121px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 28px;
-  left: 17px;
-}
-.v18_157 {
-  width: 347px;
-  height: 121px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 818px;
-  left: 17px;
+
+a {
+  text-decoration: none;
+  color: #9B9B9B;
+  font-size: 12px;
 }
