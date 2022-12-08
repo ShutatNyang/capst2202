@@ -6,6 +6,32 @@
   margin: 0;
 }
 
+.introduce_box{
+  position: absolute;
+  width: 1108px;
+  height: 776px;
+  margin-left: 30px;
+  background-color: #ffffff;
+}
+
+.introduce_main{
+  width: 80%;
+  height: 30%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.introduce_sub{
+  width: 80%;
+  height: 30%;
+  float: left;
+  margin-left: 5%;
+  font-size: 20px;
+}
+/*좌측 네비게이션*/
 .Nav{
   position: relative;
   float: left;
@@ -114,6 +140,7 @@
   background-image: url('./img/NavBottom.png');
 }
 
+/*우측 메인화면*/
 .Main{
   position: relative;
   float: right;
@@ -122,18 +149,143 @@
   height: 100%;
 }
 
+/*메인화면*/
 .MainDisp{
   width: 70%;
   height: 80%;
-  background-color: azure;
+  background-color: deepskyblue;
   margin-left: 15%;
   margin-top: 6.5%;
+  text-align: center;
 }
 
+/*자유게시판*/
+.BoardDisp{
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.BoardSearch{
+  width: 100%;
+  height: 29px;
+  margin-bottom: 10px;
+}
+
+/*자게 검색창*/
+.BoardSearch_Form{
+  margin-left: 25%;
+}
+
+.BoardSearch_sel{
+  width: 12%;
+  height: 29px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+
+.BoardSearch_text{
+  width: 50%;
+  height: 29px;
+  margin-left: 5px;
+  border: 1px solid;
+}
+
+.BoardSearch_btn{
+  border-radius: 7px;
+  width: 5%;
+  height: 29px;
+  margin-left: 8px;
+  padding-top: 4px;
+  border: 1px solid;
+}
+
+/*자게 해시태그*/
+.BoardSearch_HashTag{
+  width: 100%;
+  height: 29px;
+  margin-bottom: 12px;
+  color: blue;
+}
+
+/*자게 리스트*/
+table{
+  border-top: 1px double black;
+}
+
+th{
+  border-bottom: 1px double black;
+}
+
+tr{
+  border-left: 1px solid black;
+}
+caption{
+  margin-bottom: 12px;
+}
+
+.SearchResult_Table{
+  width: 100%;
+  text-align: center;
+}
+
+caption{
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+#t1{
+  width : 10%;
+  border-left: 1px solid;
+  border-right : 1px solid;
+}
+
+#t2{
+  width : 70%;
+  border-right : 1px solid;
+}
+
+#t3{
+  width : 10%;
+  border-right : 1px solid;
+}
+
+#t4{
+  width : 10%;
+  border-right : 1px solid;
+}
+
+td{
+  border-bottom: 1px solid;
+  border-color: #c8c8c8;
+  padding-bottom: 4px;
+}
+
+.BoardSearch_page{
+  text-align: right;
+}
+
+.Write{
+  width: 60px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 3px;
+  padding: 0;
+  background-color: #bbb9b9;
+}
+
+.Insert_page{
+  width: 20px;
+  border: 1px solid black;
+  text-align: right;
+  margin-right: 3px;
+}
+
+/*로그인페이지*/
 .Login_testDisp{
   width: 70%;
   height: 80%;
-  background-color: white;
   margin-left: 15%;
   margin-top: 6.5%;
 }
@@ -141,7 +293,6 @@
 .Login_testDisp_Form{
   margin: auto;
   width: 300px;
-  background-color: white;
   border-radius: 10px;
   text-align: center;
   padding: 15%;
@@ -171,4 +322,62 @@ a {
   text-decoration: none;
   color: #9B9B9B;
   font-size: 12px;
+}
+
+.Contest_content{
+  width: 630px;
+  height: 244px;
+  background-color: aqua;
+}
+
+.ContestContent_thumbnail{
+  width: 180px;
+  height: 244px;
+  margin-right: 1%;
+}
+
+#con_thum1{
+  background-image: url('./img/Competition1.jpg');
+}
+#con_thum2{
+  background-image: url('./img/Competition2.jpg');
+}
+#con_thum3{
+  background-image: url('./img/Competition3.jpg');
+}
+#con_thum4{
+  background-image: url('./img/Competition4.jpg');
+}
+
+.Empl_wrap{
+  width: 150px;
+  height: 244px;
+}
+
+.Empl_name{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid #bbb9b9;
+  border-top: 1px solid #bbb9b9;
+}
+
+.Empl_period{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid #bbb9b9;
+}
+
+.Empl_detail{
+  width: 150px;
+  height: 158px;
+  border-bottom: 1px solid #bbb9b9;
+  text-align: left;
+}
+.Empl_thumbnail{
+  background-color: #1BBC9B;
+  width: 100%;
+  height: 244px;
+  margin-right: 30px;
 }
